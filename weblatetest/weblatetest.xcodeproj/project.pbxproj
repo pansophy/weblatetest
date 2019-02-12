@@ -16,6 +16,7 @@
 		196C443822137017002180C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196C443622137017002180C8 /* LaunchScreen.storyboard */; };
 		196C444322137017002180C8 /* weblatetestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196C444222137017002180C8 /* weblatetestTests.swift */; };
 		196C444E22137017002180C8 /* weblatetestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196C444D22137017002180C8 /* weblatetestUITests.swift */; };
+		196C445F221376B6002180C8 /* basefile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 196C4461221376B6002180C8 /* basefile.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		196C444F22137017002180C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		196C445B22137029002180C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		196C445C2213702A002180C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		196C4460221376B6002180C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/basefile.strings; sourceTree = "<group>"; };
+		196C4462221376C8002180C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/basefile.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 				196C443422137017002180C8 /* Assets.xcassets */,
 				196C443622137017002180C8 /* LaunchScreen.storyboard */,
 				196C443922137017002180C8 /* Info.plist */,
+				196C4461221376B6002180C8 /* basefile.strings */,
 			);
 			path = weblatetest;
 			sourceTree = "<group>";
@@ -219,6 +223,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 196C441D22137016002180C8;
 			productRefGroup = 196C442722137016002180C8 /* Products */;
@@ -240,6 +245,7 @@
 				196C443822137017002180C8 /* LaunchScreen.storyboard in Resources */,
 				196C443522137017002180C8 /* Assets.xcassets in Resources */,
 				196C443322137016002180C8 /* Main.storyboard in Resources */,
+				196C445F221376B6002180C8 /* basefile.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +325,15 @@
 				196C445C2213702A002180C8 /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		196C4461221376B6002180C8 /* basefile.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196C4460221376B6002180C8 /* en */,
+				196C4462221376C8002180C8 /* es */,
+			);
+			name = basefile.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

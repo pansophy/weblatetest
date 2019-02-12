@@ -5,3 +5,6 @@
   Created by Adam Woodworth on 2/12/19.
   Copyright © 2019 PlayerLync. All rights reserved.
 */
+
+/* A person's given name */
+"First Name" = "First Name";

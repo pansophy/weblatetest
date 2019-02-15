@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file original="LocalizationTesting/en.lproj/InfoPlist.strings" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
+		<header>
+			<tool tool-id="lokalise.co" tool-name="Lokalise"/>
+		</header>
+		<body>
+			<trans-unit id="CFBundleName">
+				<source>Test Project</source>
+				<target>مشروع اختبار</target>
+				<note>Bundle name</note>
+			</trans-unit>
+		</body>
+	</file>
+	<file original="LocalizationTesting/en.lproj/Localizable.strings" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
+		<header>
+			<tool tool-id="lokalise.co" tool-name="Lokalise"/>
+		</header>
+		<body>
+			<trans-unit id="Common_Label_City">
+				<source>City</source>
+				<target>مدينة</target>
+				<note>city or town</note>
+			</trans-unit>
+			<trans-unit id="Common_Label_FirstName">
+				<source>First Name</source>
+				<target>الاسم الاول</target>
+				<note>First (Given) Name</note>
+			</trans-unit>
+			<trans-unit id="Common_Label_HomeAddress">
+				<source>Home Address</source>
+				<target>عنوان الشارع</target>
+				<note>Home Address</note>
+			</trans-unit>
+			<trans-unit id="Common_Label_LastName">
+				<source>Last Name</source>
+				<target>الكنية</target>
+				<note>Last (Family) Name</note>
+			</trans-unit>
+			<trans-unit id="Common_Label_PostalCode">
+				<source>Zip Code</source>
+				<target>الرمز البريدي</target>
+				<note>postal code</note>
+			</trans-unit>
+			<trans-unit id="Common_Label_State">
+				<source>State</source>
+				<target>حالة</target>
+				<note>state or province</note>
+			</trans-unit>
+			<trans-unit id="Common_Label_StreetAddress">
+				<source>Street Address</source>
+				<target>عنوان الشارع</target>
+				<note>Street Address</note>
+			</trans-unit>
+			<trans-unit id="Common_Label_WorkAddress">
+				<source>Work Address</source>
+				<target>عنوان الشارع</target>
+				<note>Work Address</note>
+			</trans-unit>
+			<trans-unit id="Demo_ViewTitle_DemoTitle">
+				<source>Demo Title</source>
+				<target>العنوان التجريبي</target>
+				<note>Title for testing window</note>
+			</trans-unit>
+			<trans-unit id="Inventory_Label_Book">
+				<source>Book (something you read)</source>
+				<target>كتاب</target>
+				<note>Label for something you read</note>
+			</trans-unit>
+			<trans-unit id="Reservation_Button_Book">
+				<source>Book (ticket)</source>
+				<target>سجل</target>
+				<note>Button for booking a trip</note>
+			</trans-unit>
+			<trans-unit id="Common_TimeRange">
+				<source>%@ to %@</source>
+				<target>%@ to %@</target>
+				<note>represents a time range (e.g. from july 1, 2020 8:01 PM to july 2, 2020 9:15 AM)</note>
+			</trans-unit>
+			<trans-unit id="Common_Next">
+				<source>Next</source>
+				<target>التالى</target>
+				<note>Next  item</note>
+			</trans-unit>
+		</body>
+	</file>
+	<file original="LocalizationTesting/en.lproj/Localizable.stringsdict" datatype="plaintext" xml:space="preserve" source-language="en" target-language="ar">
+		<header>
+			<tool tool-id="lokalise.co" tool-name="Lokalise"/>
+		</header>
+		<body>
+			<trans-unit id="Common_Label_NumIitems">
+				<source>%#@num_items@</source>
+				<target>%#@num_items@</target>
+			</trans-unit>
+			<trans-unit id="/Common_Label_NumIitems:dict/num_items:dict/zero:dict/:string">
+				<source>no items</source>
+				<target>صفر</target>
+			</trans-unit>
+			<trans-unit id="/Common_Label_NumIitems:dict/num_items:dict/one:dict/:string">
+				<source>1 item</source>
+				<target>فرد</target>
+			</trans-unit>
+			<trans-unit id="/Common_Label_NumIitems:dict/num_items:dict/other:dict/:string">
+				<source>%d items</source>
+				<target> %d العناص</target>
+			</trans-unit>
+			<trans-unit id="/Common_Label_NumIitems:dict/num_items:dict/two:dict/:string">
+				<source>%d items</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="/Common_Label_NumIitems:dict/num_items:dict/few:dict/:string">
+				<source>%d items</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="/Common_Label_NumIitems:dict/num_items:dict/many:dict/:string">
+				<source>%d items</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

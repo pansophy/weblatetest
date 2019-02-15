@@ -13,4 +13,4 @@
 "Family Name" = "Last Name";
 
 /* Time range. From a to b */
-"Time_Range" = "from %@ to %@"
+"Time_Range" = "from %@ to %@";

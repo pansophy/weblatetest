@@ -11,3 +11,6 @@
 
 /* A person's family name */
 "Family Name" = "Last Name";
+
+/* Time range. From a to b */
+"Time_Range" = "from %@ to %@"

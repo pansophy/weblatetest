@@ -17,6 +17,7 @@
 		196C444322137017002180C8 /* weblatetestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196C444222137017002180C8 /* weblatetestTests.swift */; };
 		196C444E22137017002180C8 /* weblatetestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196C444D22137017002180C8 /* weblatetestUITests.swift */; };
 		196C445F221376B6002180C8 /* basefile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 196C4461221376B6002180C8 /* basefile.strings */; };
+		196C448B22174AF0002180C8 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 196C448D22174AF0002180C8 /* Localizable.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,9 @@
 		196C448622173E2B002180C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		196C448722173E2B002180C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		196C448822173E2D002180C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/basefile.strings"; sourceTree = "<group>"; };
+		196C448C22174AF0002180C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		196C448E22174AF4002180C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = es; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		196C448F22174AFC002180C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				196C443622137017002180C8 /* LaunchScreen.storyboard */,
 				196C443922137017002180C8 /* Info.plist */,
 				196C4461221376B6002180C8 /* basefile.strings */,
+				196C448D22174AF0002180C8 /* Localizable.stringsdict */,
 			);
 			path = weblatetest;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 				196C443822137017002180C8 /* LaunchScreen.storyboard in Resources */,
 				196C443522137017002180C8 /* Assets.xcassets in Resources */,
 				196C443322137016002180C8 /* Main.storyboard in Resources */,
+				196C448B22174AF0002180C8 /* Localizable.stringsdict in Resources */,
 				196C445F221376B6002180C8 /* basefile.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +347,16 @@
 				196C448822173E2D002180C8 /* zh-Hans */,
 			);
 			name = basefile.strings;
+			sourceTree = "<group>";
+		};
+		196C448D22174AF0002180C8 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196C448C22174AF0002180C8 /* en */,
+				196C448E22174AF4002180C8 /* es */,
+				196C448F22174AFC002180C8 /* zh-Hans */,
+			);
+			name = Localizable.stringsdict;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

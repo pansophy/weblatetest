@@ -56,6 +56,9 @@
 		196C445C2213702A002180C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		196C4460221376B6002180C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/basefile.strings; sourceTree = "<group>"; };
 		196C4462221376C8002180C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/basefile.strings; sourceTree = "<group>"; };
+		196C448622173E2B002180C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		196C448722173E2B002180C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		196C448822173E2D002180C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/basefile.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +227,7 @@
 				en,
 				Base,
 				es,
+				"zh-Hans",
 			);
 			mainGroup = 196C441D22137016002180C8;
 			productRefGroup = 196C442722137016002180C8 /* Products */;
@@ -314,6 +318,7 @@
 			children = (
 				196C443222137016002180C8 /* Base */,
 				196C445B22137029002180C8 /* es */,
+				196C448622173E2B002180C8 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 			children = (
 				196C443722137017002180C8 /* Base */,
 				196C445C2213702A002180C8 /* es */,
+				196C448722173E2B002180C8 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -332,6 +338,7 @@
 			children = (
 				196C4460221376B6002180C8 /* en */,
 				196C4462221376C8002180C8 /* es */,
+				196C448822173E2D002180C8 /* zh-Hans */,
 			);
 			name = basefile.strings;
 			sourceTree = "<group>";

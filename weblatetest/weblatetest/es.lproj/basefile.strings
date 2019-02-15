@@ -8,3 +8,5 @@
 
 /* A person's given name */
 "First Name" = "Nombre de pila";
+/* A person's family name */
+"Family Name" = "Nombre de pila";

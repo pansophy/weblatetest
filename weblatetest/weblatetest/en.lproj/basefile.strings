@@ -8,3 +8,6 @@
 
 /* A person's given name */
 "First Name" = "First Name";
+
+/* A person's family name */
+"Family Name" = "Last Name";
